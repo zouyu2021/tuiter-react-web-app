@@ -1,0 +1,111 @@
+.btn-primary.tweet {
+    border-radius:20px;
+}
+
+.btn-dark.follow {
+    border-radius:20px;
+}
+.wd-more {
+    position: relative;
+    right: 4px;
+    width: 1.25em;
+    height: 1em;
+    line-height: 1em;
+}
+.wd-search-group .wd-search-icon {
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+}
+
+.wd-search-group input {
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+.wd-image-rounded {
+    border-radius: 15px;
+}
+
+.wd-image {
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.wd-image-content {
+    position: absolute;
+    bottom: 50px;
+    left:10px;
+}
+
+.wd-image-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+}
+
+.wd-image-subtext {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-position {
+    position: relative;
+    bottom: 55px;
+}
+
+.wd-dots {
+    color: white;
+}
+.wd-links {
+    text-decoration: none;
+    color: black;
+}
+.wd-links-active {
+    text-decoration: none;
+    color: white!important;
+}
+
+.wd-text {
+    font-size: 13px;
+    color:rgb(110,118,125);
+    margin-bottom: 2px;
+}
+
+.wd-menu .active {
+    background-color: transparent;
+    border-color: rgba(0,0,0,.125);
+    color: black;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: grey;
+}
+
+.nav-item .active {
+    color: black;
+    border-bottom: 5px solid blue !important;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.show-more {
+    margin: 20px 0;
+}
+
+.show-more a {
+    text-decoration: none;
+}
+
+.copyright {
+    margin: 20px 0;
+    color: grey;
+}
