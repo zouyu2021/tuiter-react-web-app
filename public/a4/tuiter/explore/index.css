@@ -1,0 +1,59 @@
+.btn-primary.tuit {
+    border-radius:20px;
+}
+
+.btn-primary.follow {
+    border-radius:20px;
+}
+.wd-more {
+    position: relative;
+    right: 4px;
+    width: 1.25em;
+    height: 1em;
+    line-height: 1em;
+}
+.wd-search-group .wd-search-icon {
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+}
+
+.wd-search-group input {
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+.wd-image-rounded {
+    border-radius: 15px;
+}
+
+.wd-image-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left:10px;
+}
+.wd-position {
+    position: relative;
+    bottom: 55px;
+}
+
+.wd-dots {
+    color: white;
+}
+.wd-links {
+    text-decoration: none;
+    color: black;
+}
+.wd-links-active {
+    text-decoration: none;
+    color: white!important;
+}
+
+.wd-text {
+    font-size: 13px;
+    color:rgb(110,118,125);
+    margin-bottom: 2px;
+}
+
