@@ -2,7 +2,7 @@
 // alert('Hello World!');
 
 //2.3 Writing to the Console
-import {compareArraysAsSet} from "@testing-library/jest-dom/dist/utils";
+// import {compareArraysAsSet} from "@testing-library/jest-dom/dist/utils";
 
 console.log('Hello World!');
 
@@ -204,6 +204,115 @@ const init = () => {
     const changeStyle2 = $('.change-style');
     changeStyle.css('color', 'red');
     changeStyle2.css('color', 'blue');
+
+    //2.13 Getting and setting attributes
+    const getIdAttr = $("#get-id-attr");
+    const id = getIdAttr.attr('id');
+    console.log(id);
+    const setClassAttr = $("#set-class-attr");
+    setClassAttr.attr('class', 'class-0');
+
+    //2.14 Adding and removing classes
+    const addClass1Example = $("#add-class-1");
+    addClass1Example.addClass('class-1');
+    const removeClass1Example = $("#remove-class-1");
+    removeClass1Example.removeClass('class-2');
+
+    //2.15 Hiding and showing content
+    const hideMe = $("#hide-me");
+    hideMe.hide();
+    const showMe = $("#show-me");
+    showMe.show();
+
+    //2.16 Creating new elements
+    const newLineItem = $("<li>Line item 1</li>");
+    const anotherLineItem = $("<li>Line item 2</li>");
+
+    //2.17 Appending new elements
+    const ul = $("#append-new-elements");
+    ul.append(newLineItem);
+    ul.append(anotherLineItem);
+
+    //2.18 Removing and emptying content
+    const removeLi =$("#remove-this");
+    const emptyUl = $("#empty-this");
+    removeLi.remove();
+    emptyUl.empty();
+
+    //2.19 Changing content
+    const changeThisText =
+        $("#change-this-text");
+    const changeThisHtml =
+        $("#change-this-html");
+    changeThisText.html('New text');
+    changeThisHtml.html(`
+    <li>Line item A</li>
+    <li>Line item B</li>
+    <li>Line item C</li>
+    `);
+
+    //2.20 Navigating up and down the DOM tree
+    const child2 = $("#child-2");
+    const parent1 =
+        child2.parents("#parent");
+    parent1
+        .css('background-color',
+            'red')
+        .css('color', 'white');
+    const parent = $("#parent");
+    const child =
+        parent.find("#child-2");
+    child.css('background-color',
+        'blue')
+
+    //2.21 Handling click events
+    const handleClick =
+        () => console.log('Handle click');
+    const clickable = $('.clickable');
+    clickable.click(handleClick);
+
+    //2.22 Event target
+    const handleEventTarget = (event) => {
+        const target = event.target;
+        console.log(target);
+        $(target)
+            .css('background-color', 'blue')
+            .css('color', 'white');
+    }
+
+    //2.23 Hiding and showing content
+    const eventTarget = $("#event-target");
+    eventTarget.click(handleEventTarget);
+    let hideBtn, showBtn, hideShowHeader;
+    hideBtn = $('#hide');
+    showBtn = $('#show');
+    hideShowHeader = $('#hide-show');
+    const hideHandler = () => {
+        hideShowHeader.hide();
+    }
+    const showHandler = () => {
+        hideShowHeader.show();
+    }
+    hideBtn.click(hideHandler);
+    showBtn.click(showHandler);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
