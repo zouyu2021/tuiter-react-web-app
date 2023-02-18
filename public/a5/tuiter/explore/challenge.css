@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: "Arial";
+    padding-left:16px;
+}
+
+.wd-black {
+    color: black;
+}
+
+.list-group-item{
+    background-color: black;
+    color:white;
+}
+i {
+    color: white;
+}
+.wd-links {
+    text-decoration: none;
+    color: white;
+}
+
+.wd-follow-suggest .list-group-item {
+    background-color: rgb(21, 24, 28);
+}
+
+.wd-follow-suggest button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.wd-follow-suggest button:hover {
+    background-color: rgba(217, 217, 217, 0.1);
+    color: black;
+    border:none;
+}
+
+.wd-search-group span, input {
+    background-color: rgb(32, 35, 39)!important;
+    color: rgb(217, 217, 217)!important;
+    border-color: rgb(32, 35, 39)!important;
+}
+
+.nav-tabs .nav-item button{
+    color: rgb(110, 118, 125);
+}
+.tweet{
+    border:none;
+}
+
+.wd-main-content {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+}
+
+.wd-main-content .active {
+    color: white!important;
+    background-color: black!important;
+    border: none;
+}
+
+.wd-main-content .wd-position {
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-menu .active {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.wd-menu .list-group-item:hover {
+    background-color: rgba(217, 217, 217, 0.1);
+    color: white;
+}
+
+.wd-dots {
+    color: black;
+}
+
+.wd-follow-suggest .list-group {
+    border-radius: 1.5rem!important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid rgb(47, 51, 54)!important;
+}
