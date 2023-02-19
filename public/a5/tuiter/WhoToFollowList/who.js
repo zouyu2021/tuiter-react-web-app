@@ -4,7 +4,7 @@ export default [
     { avatarIcon: 'https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL_400x400.jpg',
         userName: 'Relativity Space',
         handle: 'relativityspace', },
-    { avatarIcon: '/public/images/virgin.png',
+    { avatarIcon: 'https://cdn.freebiesupply.com/logos/large/2x/virgin-1-logo-png-transparent.png',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
     { avatarIcon: 'https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg',
