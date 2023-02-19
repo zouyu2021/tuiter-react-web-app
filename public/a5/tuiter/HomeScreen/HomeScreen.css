@@ -1,0 +1,157 @@
+
+.wd-bookmarks-container{
+    border: solid 1px rgb(47,51,54);
+}
+
+.wd-partA-border{
+    border-bottom:solid 1px lightgrey;
+}
+
+.wd-partA{
+    /* margin-left: 16px;*/
+    padding-left: 16px;
+    padding-top:12px;
+
+}
+
+.wd-partA-title{
+    /* padding-left: 16px;*/
+    /*padding-top: 12px;*/
+    color: white;
+    font-size: 20px;
+    font-weight: Bold;
+    /*  margin-bottom: 12px;*/
+}
+
+.wd-partA-handle{
+    color: lightgray;
+    font-size: 13px;
+    /* padding-left: 16px;*/
+    margin-bottom: 12px;
+}
+
+.wd-partB-C-D-E-F-G {
+    padding-right: 16px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    display: flex;
+}
+
+.wd-partB{
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.wd-float-left {
+    float: left;
+}
+
+.wd-left-side {
+    margin-right: 12px;
+}
+
+.wd-B-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-partC {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-partC-author {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-threeDot-color {
+    color: rgb(110,118,125);
+}
+.wd-partC-handle {
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+
+.wd-partD {
+    /*width: 506px;*/
+    font-size: 15px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    color: white;
+}
+
+
+.wd-partE-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.wd-bottom-round {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-image-cover {
+    object-fit: cover;
+}
+.wd-partE-F {
+    /*width: 504px;*/
+    clear: both;
+}
+.wd-partE-F-border{
+    border:1px solid rgb(47, 51, 54);
+    border-radius: 20px;
+}
+
+/*.wd-partE > img{
+    border-bottom: 1px solid lightgray;
+}*/
+
+.wd-partF-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 12px;
+}
+.wd-partF-text {
+    font-size: 15px;
+    color: rgb(110,118,125);
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.wd-partG {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /*width: 450px;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wd-partG > div {
+    flex: 1 1 60px;
+}
+
+.wd-icon-num-space {
+    padding-left: 12px;
+    color: lightgray;
+}
+.wd-partG-hyperlink {
+    text-decoration: none;
+    color: rgb(110,118,125);
+    font-size: 13px;
+}
+.wd-partG-heart {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-icon-num-space-red{
+    padding-left: 12px;
+    color: red;
+}
+
+
