@@ -14,7 +14,7 @@ const ExploreComponent = () => {
                 </div>
 
                 <div class="col-1">
-                    <i class="fas fa-cog fa-2x"></i>
+                    <i class="fas fa-cog fa-2x" style="color: #2a9fd6"></i>
                 </div>
             </div>
             <!--            Tabs-->
