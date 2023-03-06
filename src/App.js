@@ -1,5 +1,5 @@
-
 import './App.css';
+import './vendors/fontawesome/css/all.min.css';
 import React from "react";
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
@@ -16,7 +16,7 @@ function App() {
                            element={<Labs/>}/>
                     <Route path="/hello"
                            element={<HelloWorld/>}/>
-                    <Route path="/tuiter"
+                    <Route path="/tuiter/*"
                            element={<Tuiter/>}/>
                 </Routes>
             </div>

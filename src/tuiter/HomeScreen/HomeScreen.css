@@ -1,0 +1,157 @@
+
+.wd-home-bookmarks-container{
+    border: solid 1px rgb(47,51,54);
+}
+
+.wd-home-partA-border{
+    border-bottom:solid 1px lightgrey;
+}
+
+.wd-home-partA{
+    /* margin-left: 16px;*/
+    padding-left: 16px;
+    padding-top:12px;
+
+}
+
+.wd-home-partA-title{
+    /* padding-left: 16px;*/
+    /*padding-top: 12px;*/
+    color: white;
+    font-size: 20px;
+    font-weight: Bold;
+    /*  margin-bottom: 12px;*/
+}
+
+.wd-home-partA-handle{
+    color: lightgray;
+    font-size: 13px;
+    /* padding-left: 16px;*/
+    margin-bottom: 12px;
+}
+
+.wd-home-partB-C-D-E-F-G {
+    padding-right: 16px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    display: flex;
+}
+
+.wd-home-partB{
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.wd-home-float-left {
+    float: left;
+}
+
+.wd-home-left-side {
+    margin-right: 12px;
+}
+
+.wd-home-B-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-home-partC {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-home-partC-author {
+    font-size: 15px;
+    /*color: white;*/
+}
+
+.wd-home-threeDot-color {
+    color: rgb(110,118,125);
+}
+.wd-home-partC-handle {
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+
+.wd-home-partD {
+    /*width: 506px;*/
+    font-size: 15px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    /*color: white;*/
+}
+
+
+.wd-home-partE-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.wd-home-bottom-round {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-home-image-cover {
+    object-fit: cover;
+}
+.wd-home-partE-F {
+    /*width: 504px;*/
+    clear: both;
+}
+.wd-home-partE-F-border{
+    border:1px solid rgb(47, 51, 54);
+    border-radius: 20px;
+}
+
+/*.wd-home-partE > img{
+    border-bottom: 1px solid lightgray;
+}*/
+
+.wd-home-partF-title {
+    font-size: 15px;
+    font-weight: bold;
+    /*color: white;*/
+    padding: 12px;
+}
+.wd-home-partF-text {
+    font-size: 15px;
+    color: rgb(110,118,125);
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.wd-home-partG {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /*width: 450px;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wd-home-partG > div {
+    flex: 1 1 60px;
+}
+
+.wd-home-icon-num-space {
+    padding-left: 12px;
+    color: lightgray;
+}
+.wd-home-partG-hyperlink {
+    text-decoration: none;
+    color: rgb(110,118,125);
+    font-size: 13px;
+}
+.wd-home-partG-heart {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-home-icon-num-space-red{
+    padding-left: 12px;
+    color: red;
+}
+
+

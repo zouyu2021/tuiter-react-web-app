@@ -1,0 +1,259 @@
+body {
+    color:black;
+    font-family: "Arial";
+    padding-left:16px;
+}
+
+.wd-home-flex {
+    display: flex;
+}
+
+
+.wd-home-post-image {
+    align-self: center;
+}
+
+.wd-home-post-image img {
+    width: 100%;
+}
+
+.wd-home-image-rounded {
+    border-radius: 15px;
+}
+
+.wd-home-container{
+    width: 650px;
+    border: solid 0.5px rgb(47, 51, 54);
+    border-collapse: collapse;
+
+}
+
+.wd-home-container-a\&b{
+    border-bottom: solid 0.5px rgb(47, 51, 54);
+    border-collapse: collapse;
+}
+
+.wd-home-search-border {
+    /*margin-left: 16px;*/
+    /*padding: 1px 12px 1px 16px;*/
+    display: flex;
+    justify-content: space-between;
+    border-color: darkgrey;
+}
+
+
+.wd-home-search-border .wd-home-search-input {
+    font-size: 16px;
+}
+
+.wd-home-search-input .wd-home-input-label i {
+    position: absolute;
+    color: rgb(110, 118, 125);
+    top: 34px;
+    left: 54px;
+}
+
+.wd-home-search-group .wd-home-search-icon {
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+}
+
+.wd-home-search-group input {
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+
+.wd-home-search-input .wd-home-input-label input {
+    padding-left: 60px;
+    border-radius: 24px;
+    color: rgb(217, 217, 217);
+    background-color: white;
+    line-height: 30px;
+    height: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    width: 502px;
+    font-size: inherit;
+}
+
+.wd-home-search-border .wd-home-search-setting {
+    font-size: 20px;
+    padding: 4px 0;
+}
+
+.wd-home-search-border .wd-home-search-setting i {
+    color: rgb(29,161,242);
+}
+
+/*part B*/
+.wd-home-search-input-hyperlinks{
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+
+.wd-home-partB-for-you{
+    padding: 16px;
+    font-weight: bold;
+    font-family: "Arial";
+
+}
+
+.wd-home-color-blue{
+    color: rgb(29,161,242);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wd-home-white{
+    color:white;
+}
+.wd-home-bottom-blue{
+    border-bottom: 3px solid rgb(29,161,242);
+    border-radius: 2px;
+}
+
+.wd-home-partB-regular-text{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-home-partB-regular-text > div {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wd-home-color-normal{
+    color:rgb(110,118,125);
+    text-decoration: none;
+}
+
+.wd-home-divider {
+    height: 5px;
+    border-bottom: 0.5px solid rgb(47, 51, 54);
+    border-collapse: collapse;
+}
+
+.wd-home-content-container {
+}
+/*part C*/
+.wd-home-partC-suggested-post{
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgb(47, 51, 54);
+    border-top:0.5px solid rgb(47, 51, 54);
+    border-collapse: collapse;
+}
+
+.wd-home-partC-topic-1, .wd-home-partC-number-of-tweets{
+    font-size: 13px;
+    color:rgb(110,118,125);
+    margin-bottom: 5px;
+}
+
+.wd-home-partC-title-1{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*part D*/
+
+.wd-home-partD{
+    /*padding: 12px 16px;*/
+    /* border-bottom: 0.5px solid rgb(47, 51, 54);*/
+    /*    border-top:0.5px solid rgb(47, 51, 54);*/
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-home-partD-content{
+    margin-right: 12px;
+}
+
+.wd-home-partD-title{
+    margin-bottom: 5px;
+}
+.wd-home-partD-image-1{
+    width:15px;
+
+}
+
+.wd-home-partD-media-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wd-home-partD-time{
+    font-size: 13px;
+    color:rgb(110,118,125);
+    margin-bottom: 5px;
+}
+
+.wd-home-partD-text{
+    font-weight: bold;
+}
+
+
+.wd-home-float-right {
+    float: right;
+}
+
+.wd-home-partD-image-2{
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.wd-home-partE{
+    border-bottom: 0.5px solid rgb(47, 51, 54);
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-home-partE-content{
+    margin-right: 12px;
+}
+
+/*hw4-part 1*/
+.btn-primary.tweet{
+    border-radius:20px;
+}
+
+/*hw 4-part 3*/
+.btn-primary.follow{
+    border-radius:20px;
+}
+
+/* fontawesome custom */
+.fa-stack{
+    width: 1.25em;
+    height: 1em;
+    line-height: 1em;
+}
+
+.wd-home-image-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left:10px;
+}
+
+.wd-home-position {
+    position: relative;
+    bottom: 55px;
+}
+
+.wd-home-text-grey{
+    font-size: 13px;
+    color:rgb(110,118,125);
+    margin-bottom: 5px;
+}
+
