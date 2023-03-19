@@ -10,35 +10,87 @@ const NavigationSidebar = (
             <Link to={'/tuiter'} className="list-group-item">Tuiter</Link>
             <Link to={'/tuiter/home'} className={`list-group-item
 ${active === 'home'?'active':''}`}>
-                Home
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-home"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Home</div>
+                </div>
             </Link>
             <Link to={'/tuiter/explore'} className={`list-group-item
 ${active === 'explore'?'active':''}`}>
-                Explore
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-hashtag"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Explore</div>
+                </div>
             </Link>
             <a className={`list-group-item
+${active === 'labs'?'active':''}`}>
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fas fa-asterisk"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Labs</div>
+                </div>
+            </a>
+            <a className={`list-group-item
 ${active === 'notifications'?'active':''}`}>
-                Notifications
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fas fa-bell"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Notification</div>
+                </div>
             </a>
             <a className={`list-group-item
 ${active === 'messages'?'active':''}`}>
-                Messages
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-envelope"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Messages</div>
+                </div>
             </a>
             <a className={`list-group-item
 ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-bookmark"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Bookmarks</div>
+                </div>
             </a>
             <a className={`list-group-item
 ${active === 'lists'?'active':''}`}>
-                Lists
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-list"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Lists</div>
+                </div>
             </a>
-            <a className={`list-group-item
+            <Link to={'/tuiter/profile'} className={`list-group-item
 ${active === 'profile'?'active':''}`}>
-                Profile
-            </a>
+                <div className="row">
+                    <div className="col-2">
+                        <i className="fa fa-user"></i>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">Profile</div>
+                </div>
+            </Link>
             <a className={`list-group-item
 ${active === 'more'?'active':''}`}>
-                More
+                <div className="row">
+                    <div className="col-2">
+                        <span className="fa-stack wd-more">
+                                <i className="fas fa-circle fa-stack-1x"></i>
+                                <i className="fas fa-ellipsis-h fa-stack-1x wd-dots"></i>
+                            </span>
+                    </div>
+                    <div className="col-10 d-none d-xl-block wd-links">More</div>
+                </div>
             </a>
         </div>
     );

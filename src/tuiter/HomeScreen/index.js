@@ -1,8 +1,8 @@
-import PostSummaryList from "../post-summary-list";
 import NavigationSidebar from "../navigation-sidebar";
-import PostList from "../PostList";
+import WhoToFollowList from "../who-to-follow-list";
 import './HomeScreen2.css';
 import './HomeScreen.css';
+import HomeComponent from "../home";
 
 const HomeScreen = () => {
     return (
@@ -13,11 +13,11 @@ const HomeScreen = () => {
                 </div>
 
                 <div className="col-6 col-lg-7 col-md-10 col-sm-10 col-xl-6 col-xxl-6 pe-2 wd-main-content">
-                    <PostList/>
+                    <HomeComponent />
                 </div>
 
                 <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                    <PostSummaryList/>
+                    <WhoToFollowList/>
                 </div>
             </div>
         </>
