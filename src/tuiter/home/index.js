@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import TuitsList from "../tuits/TuitList";
 import WhatsHappening from "./whats-happening";
 const HomeComponent = () => {

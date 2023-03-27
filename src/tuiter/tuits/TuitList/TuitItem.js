@@ -2,14 +2,18 @@ import React from "react";
 import './tuit.css';
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits-reducer";
+// import {deleteTuit} from "../tuits-reducer";
+import {deleteTuitThunk} from "../../../services/tuits-thunks.js";
 
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
-    /*A7-7. Deleting Tweets*/
+    /*A7. Deleting Tweets*/
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
-    }
+        /*A7. Deleting Tweets*/
+        // dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
+        /*A8. Deleting Tweets*/
+    };
     return(
         <li className="list-group-item">
             <table>
