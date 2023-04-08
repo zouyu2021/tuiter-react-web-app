@@ -20,15 +20,6 @@ const TuitStats = ({tuit}) => {
         </div>
         <div className="col"
              onClick={() => likeClickHandler(tuit._id)}>
-            {/*{*/}
-            {/*    tuit.liked &&*/}
-            {/*    <i className="fas fa-heart me-2"*/}
-            {/*       style={{color: tuit.liked ? 'red': "white"}}></i>*/}
-            {/*}*/}
-            {
-                !tuit.liked &&
-                <i className="far fa-heart me-2"></i>
-            }
             Likes: {tuit.likes}&nbsp;
             <i onClick={() => dispatch(updateTuitThunk({
                 ...tuit,
