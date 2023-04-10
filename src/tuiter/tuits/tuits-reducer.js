@@ -21,6 +21,7 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "dislikes": 0,
 }
 
 const tuitsSlice = createSlice({
@@ -81,9 +82,9 @@ const tuitsSlice = createSlice({
                 tuit.liked = true;
                 tuit.likes++;
             }
-        }
+        },
     }
 });
 
-export const {createTuit, deleteTuit, likeTuit} = tuitsSlice.actions;
+export const {createTuit, deleteTuit, likeTuit, dislikeTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;
